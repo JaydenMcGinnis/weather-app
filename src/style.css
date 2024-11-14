@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  height: 700px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  padding-top: 50px;
+}
+
+input {
+  height: 30px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+label {
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 5px;
+  border-radius: 25px;
+}
